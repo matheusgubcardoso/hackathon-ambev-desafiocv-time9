@@ -7,7 +7,7 @@
    */
   
   .site-header {
-    background-color: rgb(255, 145, 0);
+    background-color: rgb(22, 206, 151);
     -webkit-backdrop-filter: saturate(180%) blur(20px);
     backdrop-filter: saturate(180%) blur(20px);
   }
@@ -27,12 +27,12 @@
   .product-device {
     position: absolute;
     right: 10%;
-    bottom: -30%;
+    bottom: -8%;
     width: 300px;
-    height: 540px;
-    background-color: #333;
+    height: 600px;
+    background-color: rgba(136, 73, 73, 0.274)(14, 13, 13, 0.274)(51, 51, 51, 0.274)(51, 51, 51, 0.274)(51, 51, 51, 0.274);
     border-radius: 21px;
-    -webkit-transform: rotate(30deg);
+    -webkit-transform: rotate(40deg);
     transform: rotate(30deg);
   }
   
@@ -48,11 +48,11 @@
   }
   
   .product-device-2 {
-    top: -25%;
+    top: -60%;
     right: auto;
     bottom: 0;
-    left: 5%;
-    background-color: #e5e5e5;
+    left: -3%;
+    background-color: rgba(255, 255, 255, .1);
   }
   
   

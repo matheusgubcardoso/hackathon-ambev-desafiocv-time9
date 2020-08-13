@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="pt-br">
     <head>
-        <title>Produto</title>
+        <title>Blog</title>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
         <meta name="description" content="">
@@ -19,14 +19,30 @@
               </a>
     
               <a class="py-2 d-none d-md-inline-block" href="produto.html">Produto</a>
-              <a class="py-2 d-none d-md-inline-block" href="galera.html">A Galera</a>
+              <a class="py-2 d-none d-md-inline-block nav-link disabled" href="blog.html">Blog</a>
               <a class="py-2 d-none d-md-inline-block" href="equalize.html">Modo Equalize</a>
               <a class="py-2 d-none d-md-inline-block" href="suporte.html">Suporte</a>
+        
     
             </div>
           </nav>
 
           
+          <script>
+            window.watsonAssistantChatOptions = {
+                integrationID: "7c880779-5e0a-44bf-9776-8e9c8f47d275", // The ID of this integration.
+                region: "us-south", // The region your integration is hosted in.
+                serviceInstanceID: "f782462e-66c6-41cf-9cc5-2c523384d82a", // The ID of your service instance.
+                onLoad: function(instance) { instance.render(); }
+              };
+            setTimeout(function(){
+              const t=document.createElement('script');
+              t.src="https://web-chat.global.assistant.watson.appdomain.cloud/loadWatsonAssistantChat.js";
+              document.head.appendChild(t);
+            });
+          </script>
+
+
 
           <footer class="container py-5">
             <div class="row">

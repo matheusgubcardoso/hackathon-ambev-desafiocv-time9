@@ -7,7 +7,7 @@
    */
   
   .site-header {
-    background-color: rgb(22, 206, 151);
+    background-color: rgb(49, 233, 178);
     -webkit-backdrop-filter: saturate(180%) blur(20px);
     backdrop-filter: saturate(180%) blur(20px);
   }
@@ -27,35 +27,29 @@
   .product-device {
     position: absolute;
     right: 10%;
-    bottom: -8%;
+    bottom: 0%;
     width: 300px;
-    height: 600px;
-    background-color: rgba(136, 73, 73, 0.274)(14, 13, 13, 0.274)(51, 51, 51, 0.274)(51, 51, 51, 0.274)(51, 51, 51, 0.274);
-    border-radius: 21px;
-    -webkit-transform: rotate(40deg);
-    transform: rotate(30deg);
-  }
-  
-  .product-device::before {
-    position: absolute;
-    top: 10%;
-    right: 10px;
-    bottom: 10%;
-    left: 10px;
-    content: "";
-    background-color: rgba(255, 255, 255, .1);
+    height: 700px;
     border-radius: 5px;
   }
   
-  .product-device-2 {
-    top: -60%;
-    right: auto;
-    bottom: 0;
-    left: -3%;
-    background-color: rgba(255, 255, 255, .1);
+  
+  .lava {
+    position: absolute;
+    left: 0%;
+    bottom: 0%;
+    width: 400px;
+    height: 1000px;
+    border-radius: 100px;
+    background-image: url("file:///C:/Users/Usuario/hackathon-ambev-desafiocv-time9/img/lava.gif");
   }
 
+  .btn{
+    background-color: rgb(49, 233, 178);
+    color: rgb(255, 255, 255);
+  }
   
+
   /*
    * Utilitários extras
    */

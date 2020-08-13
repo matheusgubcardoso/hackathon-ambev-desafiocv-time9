@@ -10,6 +10,7 @@
         <link rel="icon" href="favicon.ico">
         <link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.min.css">
         <link rel="stylesheet" type="text/css" href="css/style.css ">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
     </head>
 
     <body> 
@@ -21,9 +22,10 @@
           </a>
 
           <a class="py-2 d-none d-md-inline-block" href="produto.html">Produto</a>
-          <a class="py-2 d-none d-md-inline-block" href="galera.html">A Galera</a>
+          <a class="py-2 d-none d-md-inline-block nav-link disabled" href="blog.html">Blog</a>
           <a class="py-2 d-none d-md-inline-block" href="equalize.html">Modo Equalize</a>
           <a class="py-2 d-none d-md-inline-block" href="suporte.html">Suporte</a>
+     
 
         </div>
       </nav>
@@ -38,15 +40,27 @@
         <div class="col-md-5 p-lg-5 mx-auto my-5">
           <h1 class="display-4 font-weight-normal">Equalize</h1>
           <p class="lead font-weight-normal">A bebida consiste em trazer um novo conceito para as pessoas que sofrem com ansiedade, para as pessoas que estão com baixo astral, para as que não bebe e se sentem deslocado no meio da galera. Essa bebida irá trazer a animação que essas pessoas necessitam.</p>
-          <a class="btn btn-outline-secondary" href="produto.html">Venha Conhecer</a>
+          <a class="btn btn-outline-secondary animated infinite bounce" href="produto.html">Venha Conhecer</a>
         </div>
-        <div class="product-device shadow-sm d-none d-md-block"><img src="img/1.jpg" alt=""></div>
-        <div class="product-device product-device-2 shadow-sm d-none d-md-block"><img src="img/1.jpg" alt=""></div>
+        <div class="product-device shadow-sm d-none d-md-block animated infinite bounce"><img src="img/1.jpg" alt=""></div>
+        <div class="lava shadow-sm d-none d-md-block"></div>
       </div>
 
 
 
-
+      <script>
+        window.watsonAssistantChatOptions = {
+            integrationID: "7c880779-5e0a-44bf-9776-8e9c8f47d275", // The ID of this integration.
+            region: "us-south", // The region your integration is hosted in.
+            serviceInstanceID: "f782462e-66c6-41cf-9cc5-2c523384d82a", // The ID of your service instance.
+            onLoad: function(instance) { instance.render(); }
+          };
+        setTimeout(function(){
+          const t=document.createElement('script');
+          t.src="https://web-chat.global.assistant.watson.appdomain.cloud/loadWatsonAssistantChat.js";
+          document.head.appendChild(t);
+        });
+      </script>
 
   
       <footer class="container py-5">

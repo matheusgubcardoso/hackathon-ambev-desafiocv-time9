@@ -2,10 +2,6 @@
     max-width: 960px;
   }
   
-  /*
-   * Cabeçalho translucente customizado
-   */
-  
   .site-header {
     background-color: rgb(49, 233, 178);
     -webkit-backdrop-filter: saturate(180%) blur(20px);
@@ -20,9 +16,6 @@
     text-decoration: none;
   }
   
-  /*
-   * Dispositivos modelos (substitua eles com seus próprios dispositivos ou algo diferente)
-   */
   
   .product-device {
     position: absolute;

@@ -8,32 +8,32 @@
     backdrop-filter: saturate(180%) blur(20px);
   }
   .site-header a {
-    color: black;
-    transition: ease-in-out color .15s;
+    color: rgb(0, 0, 0);
+    transition: ease-in-out color .30s;
   }
   .site-header a:hover {
     color: white;
-    text-decoration: none;
+    text-decoration: black;
   }
   
   
   .product-device {
     position: absolute;
-    right: 10%;
+    right: 5%;
     bottom: 0%;
     width: 300px;
     height: 700px;
-    border-radius: 5px;
+    border-radius: 0%;
   }
   
   
-  .lava {
+  .lava{
     position: absolute;
-    left: 0%;
-    bottom: 0%;
-    width: 1000000000px;
-    height: 1000000000px;
-    background-image: url("file:///C:/Users/Usuario/hackathon-ambev-desafiocv-time9/img/lava.gif");
+    width: 4000px;
+    height: 2000px;
+    left: -50cm;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
   }
 
   .btn{

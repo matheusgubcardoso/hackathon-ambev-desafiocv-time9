@@ -31,9 +31,8 @@
     position: absolute;
     left: 0%;
     bottom: 0%;
-    width: 400px;
-    height: 1000px;
-    border-radius: 100px;
+    width: 1000000000px;
+    height: 1000000000px;
     background-image: url("file:///C:/Users/Usuario/hackathon-ambev-desafiocv-time9/img/lava.gif");
   }
 
@@ -42,11 +41,15 @@
     color: rgb(255, 255, 255);
   }
   
+  .margem{
+    margin: 2cm;
+  }
 
-  /*
-   * Utilitários extras
-   */
-  
+  .destaque{
+    color: rgb(98, 0, 255);
+    margin: 2cm;
+  }
+
   .flex-equal > * {
     -ms-flex: 1;
     flex: 1;
